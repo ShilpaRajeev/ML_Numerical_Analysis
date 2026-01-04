@@ -34,3 +34,22 @@ Reverse mode is efficient when n is large and m is small (especially m=1), since
 
 If we have multiple fuctions with multiple variables, then the Jacobian matrix captures the possible partial derivatives as a matrix.
 
+
+We want to find the model parameters theta that minimizes a loss function L(theta).
+
+A very popular and effective family of optimization algorithms is gradient-based optimization.
+
+### Computing Derivatives
+
+Four ways
+1. Manual Differentiation
+2. Numerical Differentiation
+3. Symbolic Differentiation
+4. Automatic Differentiation (AD)
+
+Any complex function can be broken down into a sequence of elementary operations. This sequence is called a **Wengert List**  or an evaluation trace.
+
+The Wengert list directly defines a Directed Acyclic Graph (DAG)
+
+## Forward Mode Automatic Differentiation
+## Backward Mode Automatic Differentiation
